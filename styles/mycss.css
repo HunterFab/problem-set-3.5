@@ -19,8 +19,7 @@ p
   font-size: 12px;
   background-color: #EBEBEB;
   color: darkslategrey
-  position: bottom;
-
+  text-align: center;
 }
 
 .footer
@@ -45,4 +44,9 @@ img
   outline: 20px #FFFAF0;
   font-family: sans-serif;
 
+}
+
+.second-table
+{
+  
 }
