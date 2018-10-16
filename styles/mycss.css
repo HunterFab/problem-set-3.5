@@ -9,7 +9,7 @@ html
 h1
 {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: underline;
 }
 
@@ -19,6 +19,8 @@ p
   font-size: 12px;
   background-color: #EBEBEB;
   color: darkslategrey
+  position: bottom;
+
 }
 
 .footer
@@ -26,4 +28,21 @@ p
   font-family: fantasy;
   color: darkslategrey;
   font-size: 10px;
+}
+
+img
+{
+  outline: 2px dotted darkblue;
+  width: 500px;
+  height: 500px;
+}
+
+.navigation
+{
+  background-color: #FFFAF0;
+  color: #FFFAF0;
+  word-spacing: 50px;
+  outline: 20px #FFFAF0;
+  font-family: sans-serif;
+
 }
