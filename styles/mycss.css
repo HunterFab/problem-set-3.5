@@ -24,6 +24,6 @@ p
 .footer
 {
   font-family: fantasy;
-  color: darkslategrey
-  
+  color: darkslategrey;
+  font-size: 10px;
 }
