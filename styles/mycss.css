@@ -32,9 +32,9 @@ p
 
 img
 {
-  outline: 2px dotted darkblue;
   width: 500px;
   height: 500px;
+  border-radius: 25px;
 }
 
 .navigation
