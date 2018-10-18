@@ -4,6 +4,7 @@ html
 {
   font-family: sans-serif;
   font-size: 14px;
+  background-color: aliceblue
 }
 
 h1
@@ -38,15 +39,23 @@ img
 
 .navigation
 {
-  background-color: #FFFAF0;
-  color: #FFFAF0;
-  word-spacing: 50px;
-  outline: 20px #FFFAF0;
-  font-family: sans-serif;
-
+  word-spacing: 70px;
+  background-color: #FEFEFE;
+  padding: 1px;
+  outline: 3px #000000;
+  font: Serif;
+  font-size: 12px;
+  width: 500px;
+  margin: auto;
 }
 
 .second-table
 {
-  
+  background-color: #000000;
+  color: #FEFEFE;
+}
+
+.page
+{
+  background-color: #BFC1FA
 }
