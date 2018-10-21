@@ -97,3 +97,7 @@ a:hover
 {
   background-color: yellow;
 }
+
+a[href*="baseballreference" i] {
+  color: cyan;
+}

@@ -73,7 +73,7 @@ More specifically, your website must include and incorporate the following featu
    - If you wish, you may incorporate multiple `background-color`s on a single page.
 * A `font`, `font-size`, `font-style`, `font-weight`, `color`, and `text-decoration` for at least 1 (though not necessarily the same) text element per page.
 * A `:hover` effect for each link.
-* Appropriate element spacing using `margin` and/or `padding` (this is understandbly subjective).
+* Appropriate element spacing using `margin` and/or `padding` (this is understandably subjective).
 * A `border` around at least 1 image per page.
    - At least 1 of your `border`s must incorporate rounded corners.
 * All `img` dimensions must be defined in the externally linked CSS page, and not as a tag attribute.
