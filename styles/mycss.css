@@ -1,7 +1,6 @@
 <!DOCTYPE css>
 
-html
-{
+* {
   font-family: sans-serif;
   font-size: 14px;
   background-color: aliceblue
@@ -112,6 +111,47 @@ a:hover
   background-color: yellow;
 }
 
-a[href*="baseballreference" i] {
+a[href*="baseballreference"]
+{
   color: cyan;
+}
+
+a[href*="mlb"]
+{
+  color: darkblue;
+}
+
+a[href*="ucvts"]
+{
+  color: red;
+}
+
+html + body
+{
+  font: inherit;
+}
+
+body + h1
+{
+  font-size: 32px;
+}
+
+div + p
+{
+  font-weight: 300;
+}
+
+p*="Justus Sheffield":hover
+{
+  background-color: green;
+}
+
+p*="Estevan Florial":hover
+{
+  background-color: blue;
+}
+
+p*="Jonathan Loaisiga":hover
+{
+  background-color: red;
 }
