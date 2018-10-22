@@ -137,6 +137,11 @@ img
   text-decoration: underline;
 }
 
+a
+{
+  target: _blank;
+}
+
 a:hover
 {
   background-color: yellow;
