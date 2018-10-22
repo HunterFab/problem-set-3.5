@@ -1,7 +1,6 @@
 <!DOCTYPE css>
 
-html
-{
+* {
   font-family: sans-serif;
   font-size: 14px;
   background-color: aliceblue
@@ -27,14 +26,14 @@ p
   font-family: fantasy;
   color: darkslategrey;
   font-size: 10px;
-  margin: auto;
+  margin: 10px;
   padding: 3px;
 }
 
 img
 {
   width: 500px;
-  height: 500px;
+  height: 400px;
   border-radius: 25px;
   border: 2px solid;
 }
@@ -70,6 +69,7 @@ img
   font-style: italic;
   font: Arial;
   font-size: 18px;
+  font-weight:400;
   text-decoration: underline overline;
 }
 
@@ -80,6 +80,7 @@ img
   font-style: italic;
   font: Arial;
   font-size: 18px;
+  font-weight:400;
   text-decoration: underline overline;
 }
 
@@ -90,10 +91,67 @@ img
   font-style: italic;
   font: Arial;
   font-size: 18px;
+  font-weight:400;
   text-decoration: underline overline;
+}
+
+#list-home
+{
+  color: black;
+  outline: black;
+  font-style: bold;
+  font: Sans;
+  font-size: 20px;
+  font-weight:400;
+  text-decoration: underline;
 }
 
 a:hover
 {
   background-color: yellow;
+}
+
+a[href*="baseballreference"]
+{
+  color: cyan;
+}
+
+a[href*="mlb"]
+{
+  color: darkblue;
+}
+
+a[href*="ucvts"]
+{
+  color: red;
+}
+
+html + body
+{
+  font: inherit;
+}
+
+body + h1
+{
+  font-size: 32px;
+}
+
+div + p
+{
+  font-weight: 300;
+}
+
+p*="Justus Sheffield":hover
+{
+  background-color: green;
+}
+
+p*="Estevan Florial":hover
+{
+  background-color: blue;
+}
+
+p*="Jonathan Loaisiga":hover
+{
+  background-color: red;
 }
